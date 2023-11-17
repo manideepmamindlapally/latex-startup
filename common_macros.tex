@@ -1,0 +1,64 @@
+% Built over http://jeffe.cs.illinois.edu/pubs/tex/jeffe.sty
+\RequirePackage{latexsym,amssymb}
+\RequirePackage[fleqn]{amsmath}
+
+% ---- Math structures -----
+
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\Hyper}{\mathbb{H}}
+\newcommand{\Integer}{\mathbb{Z}}
+\newcommand{\Natural}{\mathbb{N}}
+\newcommand{\Complex}{\mathbb{C}}
+\newcommand{\Rational}{\mathbb{Q}}
+\newcommand{\Field}{\mathbb{F}}
+
+\newcommand{\NN}{\Natural}
+\newcommand{\QQ}{\Rational}
+\newcommand{\RR}{\Real}
+\newcommand{\ZZ}{\Integer}
+\newcommand{\FF}{\Field}
+\newcommand{\CC}{\Complex}
+\newcommand{\PP}{\Prob}
+
+% ---- OPERATORS (requires amsmath) ----
+\newcommand{\aff}{\operatorname{aff}}		
+\newcommand{\area}{\operatorname{area}}
+\newcommand{\argmax}{\operatornamewithlimits{arg\,max}}
+\newcommand{\argmin}{\operatornamewithlimits{arg\,min}}
+\newcommand{\Aut}{\operatorname{Aut}}		% Automorphism group
+\newcommand{\conv}{\operatorname{conv}}	
+\newcommand{\E}{\operatornamewithlimits{\mathbb{E}}}			% Expectation: $\E[X]$ (like \Pr)
+\newcommand{\Hom}{\operatorname{Hom}}		% Homomorphism group
+\newcommand{\id}{\operatorname{id}}		% identity
+\newcommand{\im}{\operatorname{im}}		% image
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\poly}{\operatorname{poly}}
+\newcommand{\polylog}{\operatorname{polylog}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\rel}{\operatorname{rel\,}}	% relative (interior, boundary, etc.)
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\vol}{\operatorname{vol}}		% volume
+
+% ---- DELIMITER PAIRS ----
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\norm}[1]{\left\| #1 \right\|}
+\newcommand{\inparen}[1]{\left( #1 \right)}
+\newcommand{\insquare}[1]{\left[ #1 \right]}
+\newcommand{\inbrace}[1]{\left\{ #1 \right\}}
+\newcommand{\inangle}[1]{\left\langle #1 \right\rangle}
+\newcommand{\pfrac}[2]{\inparen{\frac{#1}{#2}}} % just something I use so often
+
+% ----- Some math symbols -----
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\mathop{\bigcup}}
+\newcommand{\intersection}{\cap}
+\newcommand{\Intersection}{\mathop{\bigcap}}
+\newcommand{\setdef}[2]{\inbrace{ #1 \ : \ #2}}      % E.g: \setdef{x}{f(x) = 0}
+\newcommand{\innerproduct}[2]{\inangle{#1,#2}}
+
+
+
