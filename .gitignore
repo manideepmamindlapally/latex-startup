@@ -16,6 +16,12 @@
 # LaTeX Beamer.
 *.snm
 *.vrb
+# Bib files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
 
 # VimTeX
 *.vimtex.tmp
