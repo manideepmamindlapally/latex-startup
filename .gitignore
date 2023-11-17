@@ -1,0 +1,24 @@
+# LaTeX temporary files.
+*.aux
+*.log
+*.toc
+*.fls.out
+*.out
+*.fls
+# PDF output - usually a bad idea to keep this in Git.
+*.pdf
+# Latexmk.
+*.fdb_latexmk
+# Latexrun
+*.latexrun*
+# SyncTeX.
+*.synctex.gz
+# LaTeX Beamer.
+*.snm
+*.vrb
+
+# VimTeX
+*.vimtex.tmp
+*.vimtex.aux
+*.vimtex.tmf
+*.vimtex.log
