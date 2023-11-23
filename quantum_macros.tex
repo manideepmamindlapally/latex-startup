@@ -1,0 +1,47 @@
+
+% Dirac notation macros
+\newcommand{\ket}[1]{\ensuremath{\left|#1\right\rangle}}
+\newcommand{\bra}[1]{\ensuremath{\left\langle#1\right|}}
+\newcommand{\braket}[2]{\ensuremath{\left\langle#1|#2\right\rangle}}
+\newcommand{\ketbra}[2]{\ensuremath{\left|#1\right\rangle\!\left\langle#2\right|}}
+
+% Operators
+\newcommand{\opnorm}[1]{\ensuremath{\left\|#1\right\|}}
+\newcommand{\pauli}[1]{\ensuremath{\sigma_{#1}}} % Pauli operator
+
+% Bra-ket operators
+\newcommand{\bracket}[3]{\ensuremath{\left\langle#1\left|#2\right|#3\right\rangle}}
+
+% Controlled operators
+\newcommand{\ctrl}[1]{\ensuremath{\text{\texttt{Ctrl-}}{#1}}}
+
+% Quantum Gates
+\newcommand{\gate}[1]{\ensuremath{\text{\texttt{#1}}}}
+\newcommand{\CNOT}{\gate{CNOT}}
+\newcommand{\HADAMARD}{\gate{H}}
+\newcommand{\PHASE}{\gate{P}}
+\newcommand{\TGATE}{\gate{T}}
+\newcommand{\SGATE}{\gate{S}}
+\newcommand{\XGATE}{\gate{X}}
+\newcommand{\YGATE}{\gate{Y}}
+\newcommand{\ZGATE}{\gate{Z}}
+\newcommand{\SWAP}{\gate{SWAP}}
+\newcommand{\CZ}{\gate{CZ}}
+\newcommand{\CCZ}{\gate{CCZ}}
+\newcommand{\CSWAP}{\gate{CSWAP}}
+\newcommand{\TOFFOLI}{\gate{CCNOT}}
+
+% Density matrix
+\newcommand{\density}[1]{\ensuremath{\rho_{#1}}}
+
+% Expectation Value
+\newcommand{\expect}[1]{\ensuremath{\left\langle#1\right\rangle}}
+
+% Trace
+\newcommand{\trace}[1]{\ensuremath{\op{Tr}\left(#1\right)}}
+
+% Basis states
+\newcommand{\kzero}{\ensuremath{\ket{0}}}
+\newcommand{\kone}{\ensuremath{\ket{1}}}
+
+

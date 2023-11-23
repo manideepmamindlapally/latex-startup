@@ -21,7 +21,21 @@
 \newcommand{\CC}{\Complex}
 \newcommand{\PP}{\Prob}
 
+% ---- DELIMITER PAIRS ----
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\norm}[1]{\left\| #1 \right\|}
+\newcommand{\inparen}[1]{\left( #1 \right)}
+\newcommand{\insquare}[1]{\left[ #1 \right]}
+\newcommand{\inbrace}[1]{\left\{ #1 \right\}}
+\newcommand{\inangle}[1]{\left\langle #1 \right\rangle}
+\newcommand{\pfrac}[2]{\inparen{\frac{#1}{#2}}} % just something I use so often
+
 % ---- OPERATORS (requires amsmath) ----
+\newcommand{\op}[1]{\ensuremath{\operatorname{#1}}}
+
 \newcommand{\aff}{\operatorname{aff}}		
 \newcommand{\area}{\operatorname{area}}
 \newcommand{\argmax}{\operatornamewithlimits{arg\,max}}
@@ -38,19 +52,13 @@
 \newcommand{\rank}{\operatorname{rank}}
 \newcommand{\rel}{\operatorname{rel\,}}	% relative (interior, boundary, etc.)
 \newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\supp}{\operatorname{supp}}	% support
 \newcommand{\vol}{\operatorname{vol}}		% volume
-
-% ---- DELIMITER PAIRS ----
-\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
-\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
-\newcommand{\set}[1]{\left\{ #1 \right\}}
-\newcommand{\abs}[1]{\left| #1 \right|}
-\newcommand{\norm}[1]{\left\| #1 \right\|}
-\newcommand{\inparen}[1]{\left( #1 \right)}
-\newcommand{\insquare}[1]{\left[ #1 \right]}
-\newcommand{\inbrace}[1]{\left\{ #1 \right\}}
-\newcommand{\inangle}[1]{\left\langle #1 \right\rangle}
-\newcommand{\pfrac}[2]{\inparen{\frac{#1}{#2}}} % just something I use so often
+\newcommand{\size}{\operatorname{size}}	% size
+\newcommand{\sizee}[1]{\operatorname{size}\inbrace{#1}}	% size
+\newcommand{\depth}{\operatorname{depth}}	% depth
+% \renewcommand{\span}{\operatorname{span}}	% span
+\newcommand{\spann}[1]{\operatorname{span}\inbrace{#1}}	% span
 
 % ----- Some math symbols -----
 \newcommand{\union}{\cup}
